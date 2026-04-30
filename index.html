@@ -3,139 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fluently Academy | English with Confidence & Mindset</title>
+    
+    <!-- SEO Básico -->
+    <title>Fluently Academy | English Coaching & Mindset Confidence</title>
+    <meta name="description" content="Master your English with Fluently Academy. Private 1:1 coaching focused on emotional control, positivity, and building unwavering confidence.">
+    <meta name="keywords" content="English coaching, mindset, confidence, learn English, private lessons, Fluently Academy">
+    
+    <!-- Open Graph (Redes Sociales) -->
+    <meta property="og:title" content="Fluently Academy | English & Mindset">
+    <meta property="og:description" content="Stop fearing mistakes. Start speaking English with confidence through our unique coaching method.">
+    <meta property="og:type" content="website">
+    
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
-        :root {
-            --primary: #2563eb;
-            --secondary: #7c3aed;
-            --accent: #f472b6;
-            --dark: #1e293b;
-            --light: #f8fafc;
-        }
-
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            line-height: 1.6;
-            color: #333;
-            background-color: var(--light);
-            scroll-behavior: smooth;
-        }
-
-        nav {
-            background: rgba(255, 255, 255, 0.95);
-            padding: 15px 5%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
+        :root { --primary: #2563eb; --secondary: #7c3aed; --accent: #f472b6; --dark: #1e293b; --light: #f8fafc; }
+        body { font-family: 'Poppins', sans-serif; margin: 0; line-height: 1.6; color: #333; background-color: var(--light); scroll-behavior: smooth; }
+        nav { background: rgba(255, 255, 255, 0.95); padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 15px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 1000; }
         .logo { font-weight: 700; color: var(--primary); font-size: 1.6rem; letter-spacing: -1px; }
         .nav-links { list-style: none; display: flex; gap: 25px; align-items: center; margin: 0; }
         .nav-links a { text-decoration: none; color: var(--dark); font-weight: 500; transition: 0.3s; }
-        .nav-links a:hover { color: var(--secondary); }
-
-        header {
-            text-align: center;
-            padding: 120px 20px;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
-            clip-path: ellipse(150% 100% at 50% 0%);
-        }
+        header { text-align: center; padding: 120px 20px; background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; clip-path: ellipse(150% 100% at 50% 0%); }
         header h1 { font-size: 3.5rem; margin-bottom: 20px; }
-        header p { font-size: 1.2rem; max-width: 700px; margin: 0 auto 30px; opacity: 0.9; }
-
         .container { max-width: 1000px; margin: auto; padding: 60px 20px; }
-
-        .highlight-box {
-            background: white;
-            padding: 50px;
-            border-radius: 20px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.05);
-            margin-top: -80px;
-            text-align: center;
-            border-bottom: 5px solid var(--accent);
-        }
-        .highlight-box h2 { color: var(--secondary); font-size: 2rem; }
-        .highlight-box p { font-size: 1.1rem; color: #555; }
-
-        .values-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin: 60px 0;
-        }
-        .value-card {
-            background: #fff;
-            padding: 30px;
-            border-radius: 15px;
-            border-left: 4px solid var(--primary);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.02);
-        }
-        .value-card h3 { color: var(--primary); margin-top: 0; }
-
-        .social-section {
-            background: #f1f5f9;
-            padding: 40px;
-            border-radius: 15px;
-            text-align: center;
-            margin: 40px 0;
-        }
-        .social-icons { display: flex; justify-content: center; gap: 20px; margin-top: 20px; }
-        .social-btn {
-            background: white;
-            padding: 15px 25px;
-            border-radius: 10px;
-            text-decoration: none;
-            color: var(--dark);
-            font-weight: 600;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            transition: 0.3s;
-        }
-        .social-btn.ig:hover { background: #e1306c; color: white; }
-        .social-btn.yt:hover { background: #ff0000; color: white; }
-
-        .booking-card { background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
-
-        .button {
-            display: inline-block;
-            background: var(--accent);
-            color: white !important;
-            padding: 16px 32px;
-            text-decoration: none;
-            border-radius: 50px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: 0.3s;
-            box-shadow: 0 4px 15px rgba(244, 114, 182, 0.4);
-        }
+        .highlight-box { background: white; padding: 50px; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.05); margin-top: -80px; text-align: center; border-bottom: 5px solid var(--accent); }
+        .values-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 60px 0; }
+        .value-card { background: #fff; padding: 30px; border-radius: 15px; border-left: 4px solid var(--primary); box-shadow: 0 5px 15px rgba(0,0,0,0.02); }
+        .button { display: inline-block; background: var(--accent); color: white !important; padding: 16px 32px; text-decoration: none; border-radius: 50px; font-weight: 700; text-transform: uppercase; transition: 0.3s; }
         .button:hover { transform: scale(1.05); }
-
-        footer {
-            background: var(--dark);
-            color: white;
-            padding: 60px 20px;
-            text-align: center;
-        }
+        .social-section { background: #f1f5f9; padding: 40px; border-radius: 15px; text-align: center; margin: 40px 0; }
+        .social-btn { background: white; padding: 12px 20px; border-radius: 10px; text-decoration: none; color: var(--dark); font-weight: 600; margin: 5px; display: inline-block; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        footer { background: var(--dark); color: white; padding: 60px 20px; text-align: center; }
         .footer-links a { color: #94a3b8; text-decoration: none; margin: 0 10px; font-size: 0.9rem; }
-        .footer-links a:hover { color: white; }
     </style>
 </head>
 <body>
-
     <nav>
         <div class="logo">Fluently Academy</div>
         <ul class="nav-links">
             <li><a href="#about">Why Us?</a></li>
             <li><a href="#booking">Book 1:1</a></li>
-            <li><a href="#contact">Contact</a></li>
             <li>
-                <!-- SELECTOR DE IDIOMA APUNTANDO A SPANISH.HTML -->
                 <select style="border: none; background: transparent; font-weight: 600; cursor: pointer;" onchange="location = this.value;">
                     <option value="index.html">🇬🇧 EN</option>
                     <option value="spanish.html">🇪🇸 ES</option>
@@ -146,48 +53,25 @@
 
     <header>
         <h1>Speak English, <br>Transform Your Life</h1>
-        <p>Expert 1:1 coaching focused on emotional control, positivity, and unwavering confidence.</p>
+        <p>Expert 1:1 coaching focused on emotional control and unwavering confidence.</p>
         <a href="#booking" class="button">Start Your Journey</a>
     </header>
 
     <div class="container">
         <section id="about" class="highlight-box">
             <h2>Beyond Just Grammar</h2>
-            <p>
-                At Fluently Academy, we don't just teach English; we build <strong>confident communicators</strong>. 
-                We use a unique system of emotional control and positive reinforcement. 
-                Why? Because fear is the biggest barrier to fluency. By mastering your emotions, 
-                you unlock a skill that will help you not only in English but in every area of your life.
-            </p>
+            <p>At Fluently Academy, we build <strong>confident communicators</strong>. Fear is the biggest barrier to fluency; by mastering your emotions, you unlock your true potential.</p>
         </section>
 
         <div class="values-grid">
-            <div class="value-card">
-                <h3>Mindset First</h3>
-                <p>We work on the psychological blocks that prevent you from speaking. Gain the courage to make mistakes and learn from them.</p>
-            </div>
-            <div class="value-card">
-                <h3>Personalised 1:1 Coaching</h3>
-                <p>Private sessions tailored to your professional or personal needs. 100% focused on your growth.</p>
-            </div>
-            <div class="value-card">
-                <h3>Positive Environment</h3>
-                <p>Our method is based on support and optimism. You will feel safe, motivated, and empowered in every single lesson.</p>
-            </div>
+            <div class="value-card"><h3>Mindset First</h3><p>Overcome the psychological blocks that hold you back from speaking English fluently.</p></div>
+            <div class="value-card"><h3>Personalized 1:1</h3><p>Sessions tailored exactly to your professional and personal growth goals.</p></div>
+            <div class="value-card"><h3>Positive Vibes</h3><p>A safe space where making mistakes is celebrated as part of the learning process.</p></div>
         </div>
 
-        <section class="social-section">
-            <h3>Join our Community</h3>
-            <p>Get daily tips and inspiration for your English journey.</p>
-            <div class="social-icons">
-                <a href="https://instagram.com/academyfluently" class="social-btn ig" target="_blank">Instagram</a>
-                <a href="https://youtube.com/@FluentlyAcademy" class="social-btn yt" target="_blank">YouTube</a>
-            </div>
-        </section>
-
-        <section id="booking">
-            <h2 style="text-align: center; margin-bottom: 30px;">Reserve Your 1:1 Session</h2>
-            <div class="booking-card">
+        <section id="booking" style="text-align: center;">
+            <h2 style="margin-bottom: 30px;">Reserve Your Session</h2>
+            <div style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
                 <div class="calendly-inline-widget" data-url="https://calendly.com/fluentlyacademy/schedule" style="min-width:320px;height:700px;"></div>
                 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
             </div>
@@ -195,8 +79,6 @@
 
         <section id="contact" style="margin-top: 80px; text-align: center;">
             <h2>Let's Talk</h2>
-            <p>Send us a message if you have any questions about our coaching.</p>
-            <!-- FORMULARIO CON TU ID mgodwgbb -->
             <form action="https://formspree.io/f/mgodwgbb" method="POST" style="max-width: 500px; margin: auto; display: flex; flex-direction: column; gap: 15px;">
                 <input type="text" name="name" placeholder="Full Name" required style="padding: 15px; border-radius: 10px; border: 1px solid #ddd;">
                 <input type="email" name="email" placeholder="Email Address" required style="padding: 15px; border-radius: 10px; border: 1px solid #ddd;">
@@ -211,9 +93,8 @@
         <div class="footer-links">
             <a href="privacy.html">Privacy</a>
             <a href="terms.html">Terms</a>
-            <a href="rules.html">Community Rules</a>
+            <a href="rules.html">Rules</a>
         </div>
     </footer>
-
 </body>
 </html>
