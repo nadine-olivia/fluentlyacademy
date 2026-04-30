@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fluently Academy | English with Confidence & Mindset</title>
-    <!-- Importamos fuentes más elegantes -->
+    <title>Fluently Academy | Inglés con Confianza y Mentalidad</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
             --primary: #2563eb;
             --secondary: #7c3aed;
-            --accent: #f472b6; /* Un toque rosa para el positivismo */
+            --accent: #f472b6;
             --dark: #1e293b;
             --light: #f8fafc;
         }
@@ -24,7 +23,6 @@
             scroll-behavior: smooth;
         }
 
-        /* NAVEGACIÓN MEJORADA */
         nav {
             background: rgba(255, 255, 255, 0.95);
             padding: 15px 5%;
@@ -41,33 +39,30 @@
         .nav-links a { text-decoration: none; color: var(--dark); font-weight: 500; transition: 0.3s; }
         .nav-links a:hover { color: var(--secondary); }
 
-        /* HEADER IMPACTANTE */
         header {
             text-align: center;
             padding: 120px 20px;
             background: linear-gradient(135deg, var(--primary), var(--secondary));
             color: white;
-            clip-path: ellipse(150% 100% at 50% 0%); /* Curva estética */
+            clip-path: ellipse(150% 100% at 50% 0%);
         }
         header h1 { font-size: 3.5rem; margin-bottom: 20px; }
         header p { font-size: 1.2rem; max-width: 700px; margin: 0 auto 30px; opacity: 0.9; }
 
         .container { max-width: 1000px; margin: auto; padding: 60px 20px; }
 
-        /* SECCIÓN DIFERENCIADORA (MINDSET) */
         .highlight-box {
             background: white;
             padding: 50px;
             border-radius: 20px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.05);
-            margin-top: -80px; /* Sube un poco para entrar en el header */
+            margin-top: -80px;
             text-align: center;
             border-bottom: 5px solid var(--accent);
         }
         .highlight-box h2 { color: var(--secondary); font-size: 2rem; }
         .highlight-box p { font-size: 1.1rem; color: #555; }
 
-        /* SECCIÓN VALORES */
         .values-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -83,7 +78,6 @@
         }
         .value-card h3 { color: var(--primary); margin-top: 0; }
 
-        /* REDES SOCIALES VISIBLES */
         .social-section {
             background: #f1f5f9;
             padding: 40px;
@@ -105,8 +99,6 @@
         .social-btn.ig:hover { background: #e1306c; color: white; }
         .social-btn.yt:hover { background: #ff0000; color: white; }
 
-        /* CALENDLY */
-        #booking { margin-top: 80px; }
         .booking-card { background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
 
         .button {
@@ -139,89 +131,85 @@
     <nav>
         <div class="logo">Fluently Academy</div>
         <ul class="nav-links">
-            <li><a href="#about">Why Us?</a></li>
-            <li><a href="#booking">Book 1:1</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">¿Por qué nosotros?</a></li>
+            <li><a href="#booking">Reserva 1:1</a></li>
+            <li><a href="#contact">Contacto</a></li>
             <li>
                 <select style="border: none; background: transparent; font-weight: 600; cursor: pointer;" onchange="location = this.value;">
-                    <option value="/">🇬🇧 EN</option>
                     <option value="/es/">🇪🇸 ES</option>
+                    <option value="/">🇬🇧 EN</option>
                 </select>
             </li>
         </ul>
     </nav>
 
     <header>
-        <h1>Speak English, <br>Transform Your Life</h1>
-        <p>Expert 1:1 coaching focused on emotional control, positivity, and unwavering confidence.</p>
-        <a href="#booking" class="button">Start Your Journey</a>
+        <h1>Habla Inglés, <br>Transforma tu Vida</h1>
+        <p>Coaching experto 1:1 enfocado en el control emocional, el positivismo y una confianza inquebrantable.</p>
+        <a href="#booking" class="button">Empieza tu Viaje</a>
     </header>
 
     <div class="container">
-        <!-- SECCIÓN DIFERENCIADORA -->
         <section id="about" class="highlight-box">
-            <h2>Beyond Just Grammar</h2>
+            <h2>Más allá de la gramática</h2>
             <p>
-                At Fluently Academy, we don't just teach English; we build **confident communicators**. 
-                We use a unique system of emotional control and positive reinforcement. 
-                Why? Because fear is the biggest barrier to fluency. By mastering your emotions, 
-                you unlock a skill that will help you not only in English but in every area of your life.
+                En Fluently Academy no solo enseñamos inglés; formamos <strong>comunicadores seguros de sí mismos</strong>. 
+                Utilizamos un sistema único de control emocional y refuerzo positivo. 
+                ¿Por qué? Porque el miedo es la mayor barrera para la fluidez. Al dominar tus emociones, 
+                desbloqueas una habilidad que te ayudará no solo con el inglés, sino en todos los ámbitos de tu vida.
             </p>
         </section>
 
         <div class="values-grid">
             <div class="value-card">
-                <h3>Mindset First</h3>
-                <p>We work on the psychological blocks that prevent you from speaking. Gain the courage to make mistakes and learn from them.</p>
+                <h3>Mentalidad Primero</h3>
+                <p>Trabajamos los bloqueos psicológicos que te impiden hablar. Gana el valor para cometer errores y aprender de ellos.</p>
             </div>
             <div class="value-card">
-                <h3>Personalised 1:1 Coaching</h3>
-                <p>Private sessions tailored to your professional or personal needs. 100% focused on your growth.</p>
+                <h3>Coaching 1:1 Personalizado</h3>
+                <p>Sesiones privadas adaptadas a tus necesidades profesionales o personales. 100% enfocado en tu crecimiento.</p>
             </div>
             <div class="value-card">
-                <h3>Positive Environment</h3>
-                <p>Our method is based on support and optimism. You will feel safe, motivated, and empowered in every single lesson.</p>
+                <h3>Ambiente Positivo</h3>
+                <p>Nuestro método se basa en el apoyo y el optimismo. Te sentirás seguro/a, motivado/a y empoderado/a en cada lección.</p>
             </div>
         </div>
 
-        <!-- REDES SOCIALES -->
         <section class="social-section">
-            <h3>Join our Community</h3>
-            <p>Get daily tips and inspiration for your English journey.</p>
+            <h3>Únete a nuestra Comunidad</h3>
+            <p>Consejos diarios e inspiración para tu camino con el inglés.</p>
             <div class="social-icons">
                 <a href="https://instagram.com/academyfluently" class="social-btn ig">Instagram</a>
                 <a href="https://youtube.com/@FluentlyAcademy" class="social-btn yt">YouTube</a>
             </div>
         </section>
 
-        <!-- BOOKING -->
         <section id="booking">
-            <h2 style="text-align: center; margin-bottom: 30px;">Reserve Your 1:1 Session</h2>
+            <h2 style="text-align: center; margin-bottom: 30px;">Reserva tu Sesión 1:1</h2>
             <div class="booking-card">
                 <div class="calendly-inline-widget" data-url="https://calendly.com/fluentlyacademy/schedule" style="min-width:320px;height:700px;"></div>
                 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
             </div>
         </section>
 
-        <!-- FORMULARIO CORREO -->
         <section id="contact" style="margin-top: 80px; text-align: center;">
-            <h2>Let's Talk</h2>
-            <p>Send us a message if you have any questions about our coaching.</p>
+            <h2>Hablemos</h2>
+            <p>Envíanos un mensaje si tienes preguntas sobre nuestro coaching.</p>
             <form action="https://formspree.io/f/TU_ID_AQUI" method="POST" style="max-width: 500px; margin: auto; display: flex; flex-direction: column; gap: 15px;">
-                <input type="text" name="name" placeholder="Full Name" required style="padding: 15px; border-radius: 10px; border: 1px solid #ddd;">
-                <input type="email" name="email" placeholder="Email Address" required style="padding: 15px; border-radius: 10px; border: 1px solid #ddd;">
-                <textarea name="message" placeholder="How can we help you?" rows="4" style="padding: 15px; border-radius: 10px; border: 1px solid #ddd;"></textarea>
-                <button type="submit" class="button" style="border:none; cursor:pointer; width: 100%;">Send Message</button>
+                <input type="text" name="name" placeholder="Nombre completo" required style="padding: 15px; border-radius: 10px; border: 1px solid #ddd;">
+                <input type="email" name="email" placeholder="Correo electrónico" required style="padding: 15px; border-radius: 10px; border: 1px solid #ddd;">
+                <textarea name="message" placeholder="¿Cómo podemos ayudarte?" rows="4" style="padding: 15px; border-radius: 10px; border: 1px solid #ddd;"></textarea>
+                <button type="submit" class="button" style="border:none; cursor:pointer; width: 100%;">Enviar Mensaje</button>
             </form>
         </section>
     </div>
 
     <footer>
-        <p>© 2026 Fluently Academy | Building Confidence Worldwide</p>
+        <p>© 2026 Fluently Academy | Construyendo confianza en todo el mundo</p>
         <div class="footer-links">
-            <a href="privacy.html">Privacy</a>
-            <a href="terms.html">Terms</a>
-            <a href="rules.html">Community Rules</a>
+            <a href="../privacy.html">Privacidad</a>
+            <a href="../terms.html">Términos</a>
+            <a href="../rules.html">Reglas de la Comunidad</a>
         </div>
     </footer>
 
