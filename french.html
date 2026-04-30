@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO de base -->
+    <title>Fluently Academy | Coaching d'Anglais & Confiance</title>
+    <meta name="description" content="Maîtrisez l'anglais avec Fluently Academy. Coaching privé 1:1 axé sur le contrôle émotionnel et une confiance inébranlable.">
+    <meta name="keywords" content="coaching anglais, mentalité, confiance, apprendre l'anglais, cours privés, Fluently Academy">
+    
+    <!-- Open Graph (Réseaux Sociaux) -->
+    <meta property="og:title" content="Fluently Academy | Anglais & Confiance">
+    <meta property="og:description" content="Ne craignez plus les erreurs. Parlez anglais avec assurance grâce à notre méthode de coaching unique.">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #2563eb; --secondary: #7c3aed; --accent: #f472b6; --dark: #1e293b; --light: #f8fafc; }
+        body { font-family: 'Poppins', sans-serif; margin: 0; line-height: 1.6; color: #333; background-color: var(--light); scroll-behavior: smooth; }
+        
+        nav { 
+            background: rgba(255, 255, 255, 0.95); 
+            padding: 8px 5%; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05); 
+            position: sticky; 
+            top: 0; 
+            z-index: 1000; 
+        }
+
+        .logo-container img {
+            height: 55px;
+            width: auto;
+            border-radius: 10px;
+            display: block;
+        }
+
+        .nav-links { list-style: none; display: flex; gap: 25px; align-items: center; margin: 0; }
+        .nav-links a { text-decoration: none; color: var(--dark); font-weight: 500; transition: 0.3s; }
+        
+        header { text-align: center; padding: 120px 20px; background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; clip-path: ellipse(150% 100% at 50% 0%); }
+        header h1 { font-size: 3.5rem; margin-bottom: 20px; }
+        .container { max-width: 1000px; margin: auto; padding: 60px 20px; }
+        .highlight-box { background: white; padding: 50px; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.05); margin-top: -80px; text-align: center; border-bottom: 5px solid var(--accent); }
+        .values-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 60px 0; }
+        .value-card { background: #fff; padding: 30px; border-radius: 15px; border-left: 4px solid var(--primary); box-shadow: 0 5px 15px rgba(0,0,0,0.02); }
+        .button { display: inline-block; background: var(--accent); color: white !important; padding: 16px 32px; text-decoration: none; border-radius: 50px; font-weight: 700; text-transform: uppercase; transition: 0.3s; border: none; cursor: pointer; }
+        .button:hover { transform: scale(1.05); }
+        footer { background: var(--dark); color: white; padding: 60px 20px; text-align: center; }
+        .footer-links a { color: #94a3b8; text-decoration: none; margin: 0 10px; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="french.html" class="logo-container">
+            <img src="logo.png" alt="Fluently Academy Logo">
+        </a>
+        <ul class="nav-links">
+            <li><a href="#about">Pourquoi nous ?</a></li>
+            <li><a href="#booking">Réserver 1:1</a></li>
+            <li>
+                <select style="border: none; background: transparent; font-weight: 600; cursor: pointer;" onchange="location = this.value;">
+                    <option value="french.html">🇫🇷 FR</option>
+                    <option value="index.html">🇬🇧 EN</option>
+                    <option value="spanish.html">🇪🇸 ES</option>
+                    <option value="italian.html">🇮🇹 IT</option>
+                </select>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Parlez Anglais, <br>Transformez votre Vie</h1>
+        <p>Coaching d'expert 1:1 axé sur le contrôle émotionnel et une confiance inébranlable.</p>
+        <a href="#booking" class="button">Commencez votre voyage</a>
+    </header>
+
+    <div class="container">
+        <section id="about" class="highlight-box">
+            <h2>Bien plus que de la grammaire</h2>
+            <p>Chez Fluently Academy, nous formons des <strong>communicateurs confiants</strong>. La peur est la plus grande barrière à la fluidité ; en maîtrisant vos émotions, vous libérez votre véritable potentiel.</p>
+        </section>
+
+        <div class="values-grid">
+            <div class="value-card"><h3>Mentalité d'abord</h3><p>Surmontez les blocages psychologiques qui vous empêchent de parler anglais couramment.</p></div>
+            <div class="value-card"><h3>Coaching 1:1 personnalisé</h3><p>Des séances adaptées précisément à vos objectifs de croissance professionnelle et personnelle.</p></div>
+            <div class="value-card"><h3>Vibrations positives</h3><p>Un espace sécurisé où faire des erreurs est célébré comme une étape essentielle de l'apprentissage.</p></div>
+        </div>
+
+        <section id="booking" style="text-align: center;">
+            <h2 style="margin-bottom: 30px;">Réservez votre séance</h2>
+            <div style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                <div class="calendly-inline-widget" data-url="https://calendly.com/fluentlyacademy/schedule" style="min-width:320px;height:700px;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            </div>
+        </section>
+
+        <section id="contact" style="margin-top: 80px; text-align: center;">
+            <h2>Parlons-en</h2>
+            <p>Envoyez-nous un message pour toute question sur notre coaching.</p>
+            <form action="https://formspree.io/f/mgodwgbb" method="POST" style="max-width: 500px; margin: auto; display: flex; flex-direction: column; gap: 15px;">
+                <input type="text" name="name" placeholder="Nom complet" required style="padding: 15px; border-radius: 10px; border: 1px solid #ddd;">
+                <input type="email" name="email" placeholder="Adresse e-mail" required style="padding: 15px; border-radius: 10px; border: 1px solid #ddd;">
+                <textarea name="message" placeholder="Comment pouvons-nous vous aider ?" rows="4" style="padding: 15px; border-radius: 10px; border: 1px solid #ddd;"></textarea>
+                <button type="submit" class="button" style="width: 100%;">Envoyer le message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2026 Fluently Academy | Bâtir la confiance dans le monde entier</p>
+        <div class="footer-links">
+            <a href="privacy.html">Confidentialité</a>
+            <a href="terms.html">Conditions</a>
+            <a href="rules.html">Règles</a>
+        </div>
+    </footer>
+</body>
+</html>
