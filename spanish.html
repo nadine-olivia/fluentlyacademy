@@ -17,17 +17,40 @@
     <style>
         :root { --primary: #2563eb; --secondary: #7c3aed; --accent: #f472b6; --dark: #1e293b; --light: #f8fafc; }
         body { font-family: 'Poppins', sans-serif; margin: 0; line-height: 1.6; color: #333; background-color: var(--light); scroll-behavior: smooth; }
-        nav { background: rgba(255, 255, 255, 0.95); padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 15px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 1000; }
-        .logo { font-weight: 700; color: var(--primary); font-size: 1.6rem; letter-spacing: -1px; }
+        
+        nav { 
+            background: rgba(255, 255, 255, 0.95); 
+            padding: 8px 5%; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05); 
+            position: sticky; 
+            top: 0; 
+            z-index: 1000; 
+        }
+
+        .logo-container img {
+            height: 55px;
+            width: auto;
+            border-radius: 10px;
+            display: block;
+        }
+
         .nav-links { list-style: none; display: flex; gap: 25px; align-items: center; margin: 0; }
         .nav-links a { text-decoration: none; color: var(--dark); font-weight: 500; }
+        
         header { text-align: center; padding: 120px 20px; background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; clip-path: ellipse(150% 100% at 50% 0%); }
         header h1 { font-size: 3.5rem; margin-bottom: 20px; }
         .container { max-width: 1000px; margin: auto; padding: 60px 20px; }
         .highlight-box { background: white; padding: 50px; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.05); margin-top: -80px; text-align: center; border-bottom: 5px solid var(--accent); }
         .values-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 60px 0; }
         .value-card { background: #fff; padding: 30px; border-radius: 15px; border-left: 4px solid var(--primary); box-shadow: 0 5px 15px rgba(0,0,0,0.02); }
-        .button { display: inline-block; background: var(--accent); color: white !important; padding: 16px 32px; text-decoration: none; border-radius: 50px; font-weight: 700; text-transform: uppercase; transition: 0.3s; }
+        .button { display: inline-block; background: var(--accent); color: white !important; padding: 166px 32px; text-decoration: none; border-radius: 50px; font-weight: 700; text-transform: uppercase; transition: 0.3s; }
+        
+        /* Corregí un error de padding en el botón que se me coló arriba */
+        .button { padding: 16px 32px !important; }
+        
         .button:hover { transform: scale(1.05); }
         footer { background: var(--dark); color: white; padding: 60px 20px; text-align: center; }
         .footer-links a { color: #94a3b8; text-decoration: none; margin: 0 10px; font-size: 0.9rem; }
@@ -35,7 +58,9 @@
 </head>
 <body>
     <nav>
-        <div class="logo">Fluently Academy</div>
+        <a href="spanish.html" class="logo-container">
+            <img src="logo.png" alt="Fluently Academy Logo">
+        </a>
         <ul class="nav-links">
             <li><a href="#about">¿Por qué nosotros?</a></li>
             <li><a href="#booking">Reserva 1:1</a></li>
